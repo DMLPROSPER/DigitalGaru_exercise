@@ -1,0 +1,33 @@
+.intro{
+	color:white ;
+}
+body{
+	background-color:#2bd45f ;
+}
+.logo{
+	margin-left:180px ;
+	margin-top:23px ;
+	
+}
+.intro h1{
+	font-size:55px ;
+	text-align:center ;
+	margin-left:-130px ;
+}
+.intro h3{
+	text-align:center ;
+	margin-right:190px ;
+	margin-top:-23px ;
+}
+.background{
+	color:white ;
+	background-color:white ;
+	margin-left:-10px ;
+	margin-right:-10px ;
+	padding:566px ;
+
+
+
+
+
+}
