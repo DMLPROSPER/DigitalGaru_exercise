@@ -35,7 +35,7 @@
 	margin-top:-60px ;	
 	align-content:center ;
 	background-color:white ;
-	padding-bottom:123px ;
+	padding-bottom:188px ;
 }
 .categories h5{
 	text-align:center ;
@@ -88,5 +88,93 @@
 	margin-left:670px ;
 	margin-top:-28px ;
 }
+.digi h3{
+	text-align:center ;
+	font-size:25px ;
+	font-weight:bold ;
+}
 
+.reach{
+	color:white ;
+	background-color:#ff8d00 ;
+	margin:20px ;
+	margin-right:700px ;
+	margin-left:170px ;
+	padding:10px ;
 
+}
+.reach h2{
+	padding:20px ;
+	margin-top:10px ;
+}
+.reach h5{
+	padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+    margin-top:-36px ;
+}
+.visit{
+	color:white ;
+	background-color:#00966c ;
+	margin:20px ;
+	margin-right:180px ;
+	margin-left:700px ;
+	padding:10px ;
+	margin-top:-220px ;
+	padding-bottom:88px ;
+}
+.visit h5{
+	padding-left: 20px;
+    margin-bottom: 30px;
+    margin-top:-40px ;
+
+}
+.visit h2{
+	padding:20px ;
+	margin-top:10px ;
+	padding-bottom:-15px ;
+}
+.discover{
+	color:white ;
+	background-color:#e00c0c ;
+	margin:20px ;
+	margin-right:180px ;
+	margin-left:700px ;
+	padding:10px ;
+	margin-top:40px ;
+	padding-bottom:88px ;
+}
+.discover h5{
+	padding-left: 20px;
+    margin-bottom: 30px;
+    margin-top:-40px ;
+
+}
+.discover h2{
+	padding:20px ;
+	margin-top:10px ;
+	padding-bottom:-15px ;
+}
+.digitise{
+	color:white ;
+	background-color:#1ed82c ;
+	margin:20px ;
+	margin-right:700px ;
+	margin-left:170px ;
+	padding:10px ;
+	margin-top:-230px ;
+}
+.digitise h2{
+	padding:20px ;
+	margin-top:10px ;
+}
+.digitise h5{
+	padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    padding-bottom: 45px;
+    margin-bottom: 70px;
+    margin-top:-36px ;
+}
