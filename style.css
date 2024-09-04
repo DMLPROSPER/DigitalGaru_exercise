@@ -1,13 +1,20 @@
+
 .intro{
 	color:white ;
-}
-body{
 	background-color:#2bd45f ;
+	margin-top:-25px ;
+	margin-left:-19px ;
+	margin-right:-19px ;
+	padding-bottom:100px ;
 }
+	
 .logo{
 	margin-left:180px ;
 	margin-top:23px ;
 	
+}
+.logo img{
+	margin-top:23px ;
 }
 .intro h1{
 	font-size:55px ;
@@ -19,15 +26,67 @@ body{
 	margin-right:190px ;
 	margin-top:-23px ;
 }
-.background{
-	color:white ;
+
+.categories{
+	font-size:30px ;
+	border:3px solid whitesmoke ;
+	margin-right:200px ;
+	margin-left:170px ;
+	margin-top:-60px ;	
+	align-content:center ;
 	background-color:white ;
-	margin-left:-10px ;
-	margin-right:-10px ;
-	padding:566px ;
-
-
-
-
+	padding-bottom:123px ;
+}
+.categories h5{
+	text-align:center ;
+}
+.Gloceries{
+	font-size:15px ;
+	margin-right:80px ;
+}
+.Gloceries h5{
+	color: orange;
+	padding-right:640px ;
+	font-size:18px ;
+	margin-top:10px ;
+}
+.Gloceries ul{
+	margin-top:-30px 
 
 }
+.construction h5{
+	font-size:18px ;
+	margin-left:-220px ;
+	margin-top:-105px ;
+	color:#00966c ;
+}
+.construction ul{
+	font-size:15px ;
+	margin-left:250px ;
+	margin-top:-30px ;
+
+}
+.edu h5{
+	font-size:18px ;
+	margin-left:200px ;
+	margin-top:-70px ;
+	color:#1ed82c ;
+}
+.edu ul{
+	font-size:15px ;
+	margin-left:450px ;
+	margin-top:-28px ;
+}
+.health h5{
+	font-size:18px ;
+	margin-left:640px ;
+	margin-top:-330px ;
+	color:#e00c0c ;
+}
+.health ul{
+	font-size:15px ;
+	margin-left:670px ;
+	margin-top:-28px ;
+}
+
+
