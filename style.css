@@ -3,11 +3,23 @@ body{
 	padding: 0px;
 }
 nav ul li{
-	display: inline-block;
+	display: inline;
 	padding: 10px;
 	font-size: 20px;
-}
 
+}
+nav{
+	
+	width: 80%;
+}
+nav ul{
+	float: right;
+
+}
+li:hover{
+	background-color:blue ;
+	border-radius:5px ;
+}
 .header{
 	display: flex;
 	flex-direction: row;
@@ -23,6 +35,7 @@ nav ul li{
 	width:250px ;
 	height:50px ;
 	margin-top: 10px;
+
 }
 .banner h1{
 	font-size:55px ;
@@ -41,6 +54,12 @@ nav ul li{
 	width: 100%;
 }
 
+.category_list{
+	
+	display: flex;
+	flex-direction: row;
+	
+}
 .categories{
 	width: 70%;
 	margin: auto;
@@ -49,6 +68,8 @@ nav ul li{
 }
 .categories h5{
 	text-align:center ;
+	font-size:30px ;
+
 }
 .Gloceries{
 	font-size:15px ;
@@ -94,24 +115,34 @@ nav ul li{
 	font-weight:bold ;
 }
 
+.reach_visit{
+	width:80% ;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	
+	
+}
+
 .reach{
 	color:white ;
 	background-color:#ff8d00 ;
-	width:400px ;
-	height:250px ;	
-}
-.reach h2{
 	
 }
-.reach h5{
+
+.reach h5,.reach h2{
 	color: white;
     
+}
+.reach, .visit{
+	width: 600px;
+	height: 300px;
+	margin: 20px;
+	padding: 10px;
 }
 .visit{
 	color:white ;
 	background-color:#00966c ;
-	width:400px ;
-	height:250px ;
 }
 .visit h5{
 	
@@ -138,8 +169,17 @@ nav ul li{
 	width:400px ;
 	height:250px ;
 	}
-.digitise h2{
-	
+.digitise_discover{
+	width:80% ;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+}
+.digitise,.discover{
+	width: 600px;
+	height: 300px;
+	margin: 20px;
+	padding:10px ;
 }
 .digitise h5{
 	
