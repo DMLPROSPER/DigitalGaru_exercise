@@ -1,92 +1,92 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+}
 
-.intro{
-	color:white ;
-	background-color:#2bd45f ;
-	margin-top:-25px ;
-	margin-left:-19px ;
-	margin-right:-19px ;
-	padding-bottom:100px ;
+.header{
+	display: flex;
+	flex-direction: row;
+	background-color:#2bd45f;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
 }
+
 	
-.logo{
-	margin-left:180px ;
-	margin-top:23px ;
-	
-}
+
 .logo img{
-	margin-top:23px ;
+	width:250px ;
+	height:50px ;
+	margin-top: 10px;
 }
-.intro h1{
+.banner h1{
 	font-size:55px ;
 	text-align:center ;
-	margin-left:-130px ;
+	color: #fff;
 }
-.intro h3{
-	text-align:center ;
-	margin-right:190px ;
-	margin-top:-23px ;
+.banner h3{
+	text-align:center;
+	color: #fff;
+	font-size: 30px;
+}
+.banner{
+	height: 500px;
+	background-color:#2bd45f ;
+	margin-top: -40px;
+	width: 100%;
 }
 
 .categories{
-	font-size:30px ;
-	border:3px solid whitesmoke ;
-	margin-right:200px ;
-	margin-left:170px ;
-	margin-top:-60px ;	
-	align-content:center ;
-	background-color:white ;
-	padding-bottom:188px ;
+	width: 70%;
+	margin: auto;
+	margin-top: -100px;
+	background-color: #fff;
 }
 .categories h5{
 	text-align:center ;
 }
 .Gloceries{
 	font-size:15px ;
-	margin-right:80px ;
+	
 }
 .Gloceries h5{
 	color: orange;
-	padding-right:640px ;
 	font-size:18px ;
-	margin-top:10px ;
-}
+	}
 .Gloceries ul{
-	margin-top:-30px 
+ 
 
 }
 .construction h5{
 	font-size:18px ;
-	margin-left:-220px ;
-	margin-top:-105px ;
 	color:#00966c ;
 }
 .construction ul{
 	font-size:15px ;
-	margin-left:250px ;
-	margin-top:-30px ;
+	
 
 }
 .edu h5{
 	font-size:18px ;
-	margin-left:200px ;
-	margin-top:-70px ;
 	color:#1ed82c ;
 }
 .edu ul{
 	font-size:15px ;
-	margin-left:450px ;
-	margin-top:-28px ;
+
 }
 .health h5{
 	font-size:18px ;
-	margin-left:640px ;
-	margin-top:-330px ;
+	
 	color:#e00c0c ;
 }
 .health ul{
 	font-size:15px ;
-	margin-left:670px ;
-	margin-top:-28px ;
+	
 }
 .digi h3{
 	text-align:center ;
@@ -97,84 +97,141 @@
 .reach{
 	color:white ;
 	background-color:#ff8d00 ;
-	margin:20px ;
-	margin-right:700px ;
-	margin-left:170px ;
-	padding:10px ;
-
+	width:400px ;
+	height:250px ;	
 }
 .reach h2{
-	padding:20px ;
-	margin-top:10px ;
+	
 }
 .reach h5{
-	padding-left: 20px;
-    padding-right: 20px;
-    color: white;
-    padding-bottom: 30px;
-    margin-bottom: 70px;
-    margin-top:-36px ;
+	color: white;
+    
 }
 .visit{
 	color:white ;
 	background-color:#00966c ;
-	margin:20px ;
-	margin-right:180px ;
-	margin-left:700px ;
-	padding:10px ;
-	margin-top:-220px ;
-	padding-bottom:88px ;
+	width:400px ;
+	height:250px ;
 }
 .visit h5{
-	padding-left: 20px;
-    margin-bottom: 30px;
-    margin-top:-40px ;
+	
 
 }
 .visit h2{
-	padding:20px ;
-	margin-top:10px ;
-	padding-bottom:-15px ;
+	
 }
 .discover{
 	color:white ;
 	background-color:#e00c0c ;
-	margin:20px ;
-	margin-right:180px ;
-	margin-left:700px ;
-	padding:10px ;
-	margin-top:40px ;
-	padding-bottom:88px ;
+	width:400px ;
+	height:250px ;
 }
 .discover h5{
-	padding-left: 20px;
-    margin-bottom: 30px;
-    margin-top:-40px ;
+	
 
 }
 .discover h2{
-	padding:20px ;
-	margin-top:10px ;
-	padding-bottom:-15px ;
-}
+	}
 .digitise{
 	color:white ;
 	background-color:#1ed82c ;
-	margin:20px ;
-	margin-right:700px ;
-	margin-left:170px ;
-	padding:10px ;
-	margin-top:-230px ;
-}
+	width:400px ;
+	height:250px ;
+	}
 .digitise h2{
-	padding:20px ;
-	margin-top:10px ;
+	
 }
 .digitise h5{
-	padding-left: 20px;
-    padding-right: 20px;
-    color: white;
-    padding-bottom: 45px;
-    margin-bottom: 70px;
-    margin-top:-36px ;
+	
+    color: white;   
+}
+
+.dbd{
+	color:white ;
+	background-color:#ff8d00 ;
+	width: 100% ;
+	height:500px ;
+	text-align:center ;
+}
+.dbd p{
+	font-size:24px ;
+	
+}
+.dbd h2{
+	font-size:50px ;
+	
+}
+
+.dbd h6{
+	
+	font-size:21px ;
+	
+
+  }
+.dbd h3{
+	font-size:20px ;
+	
+}
+.trusted{
+	text-align: center; 
+	color:white ;
+	background-color:#2cf72c ;
+	font-size:50px ;
+	width: px ;
+	height:1000px ;
+}
+.trusted img{
+	
+	width:25%; 
+	height:30px;
+	display: flex;
+	flex-direction: row;
+	margin-left:400px ;
+}
+
+.sponsors{
+	text-align:center ;
+	background-color:#009627b5 ;
+	color:white ;
+	width: ;
+	height:500px ;
+	}
+.sponsors h2{
+	font-size:56px ;
+}	
+.codevision{
+	margin-top:-30px ;
+	margin-left:340px ;
+}
+.sponsors img{
+	width:25%; 
+	height:30px;
+	display: flex;
+	flex-direction: row;
+	margin-left:400px ;
+}
+.codevision2{
+	margin-top:-30px ;
+	margin-left:340px ;
+}
+.sponsors p{
+	font-size:30px ;
+}
+.sponsors button{
+	width: 45;
+	height:33px ;
+}
+.pizza img{
+	height: ;
+	width:70% ;
+	margin:205px ;
+}
+.digigaru img{
+	margin:0px ;
+	width: 390px;
+	height:230px ;
+}
+.footer{
+	background-color:#2bd45f ;
+
 }
