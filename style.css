@@ -1,4 +1,6 @@
 body{
+	width: 100%;
+	height: auto;
 	margin: 0px;
 	padding: 0px;
 }
@@ -32,8 +34,8 @@ li:hover{
 	
 
 .logo img{
-	width:250px ;
-	height:50px ;
+	width:150px ;
+	height:30px ;
 	margin-top: 10px;
 
 }
@@ -41,6 +43,7 @@ li:hover{
 	font-size:55px ;
 	text-align:center ;
 	color: #fff;
+	padding-top:40px ;
 }
 .banner h3{
 	text-align:center;
@@ -52,6 +55,8 @@ li:hover{
 	background-color:#2bd45f ;
 	margin-top: -40px;
 	width: 100%;
+
+
 }
 
 .category_list{
@@ -63,13 +68,17 @@ li:hover{
 .categories{
 	width: 70%;
 	margin: auto;
-	margin-top: -100px;
 	background-color: #fff;
+	margin-top:-250px ;
 }
-.categories h5{
+.categories h1{
 	text-align:center ;
 	font-size:30px ;
+	padding-top:30px ;
 
+}
+.categories h5{
+	padding-left:30px;
 }
 .Gloceries{
 	font-size:15px ;
@@ -241,14 +250,14 @@ li:hover{
 }	
 .codevision{
 	margin-top:-30px ;
-	margin-left:340px ;
+
 }
 .sponsors img{
 	width:25%; 
 	height:30px;
 	display: flex;
 	flex-direction: row;
-	margin-left:400px ;
+	
 }
 .codevision2{
 	margin-top:-30px ;
@@ -275,3 +284,37 @@ li:hover{
 	background-color:#2bd45f ;
 
 }
+/*
+MEDIA QUERY
+
+*/
+@media (max-width:768px){
+	.reach_visit{
+	display: inline;
+	width: 100%;
+	
+}
+	nav ul li{
+		font-size: 20px;
+	}
+.logo img{
+	width:120px ;
+	height:30px ;
+	margin-top: 10px;
+
+}
+/*BANNER*/
+	.digitise_discover{
+		display: inline;
+		width: 100%;
+		
+	}
+
+}
+
+
+
+
+}
+
+
